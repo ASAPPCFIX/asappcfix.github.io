@@ -2,23 +2,24 @@
 <html>
 <style>
 input[type=text], select {
-  width: 100%;
+  width: 500px;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 2px 2px;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 20px;
   box-sizing: border-box;
+  
 }
 
 input[type=submit] {
-  width: 100%;
+  width: 500px;
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
-  border-radius: 4px;
+  border-radius: 20px;
   cursor: pointer;
 }
 
@@ -38,18 +39,31 @@ div {
 
 <div>
   <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
 
-    <label for="country">Country</label>
+    <label for="cinfo">Phone #</label><br>
+    <input type="text" id="cinfo" name="contact_info" placeholder="Your phone number.."><br>
+
+    <label for="einfo">Email Address</label><br>
+    <input type="text" id="einfo" name="email_info" placeholder="Your email.."><br>
+
+    <label for="dtype">Device Type</label><br>
+    <input type="text" id="dtype" name="devicetype" placeholder="Cell Phone/Laptop/Game Console/Tablet etc.."><br>
+
+    <label for="model_no">Model Number</label><br>
+    <input type="text" id="model_no" name="model_number" placeholder="Model #.."><br>
+
+    
+    <label for="country">Country</label><br>
     <select id="country" name="country">
       <option value="australia">Australia</option>
       <option value="canada">Canada</option>
       <option value="usa">USA</option>
-    </select>
+    </select><br>
   
     <input type="submit" value="Submit">
   </form>
