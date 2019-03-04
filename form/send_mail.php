@@ -1,19 +1,24 @@
 <?php
-    $mailto = $_POST['mail_to'];
-    $mailSub = $_POST['mail_sub'];
-    $mailMsg = $_POST['mail_msg'];
+    $firstname = $_POST['firstname'];
+    $lastname = $_POST['lastname'];
+    $contactinfo = $_POST['contact_info'];
+    $email_info = $_POST['email_info']
+    $devicetype = $_POST['device_type']
+    $modelno = $_POST['model_no']
+
+
    require 'PHPMailer-master/PHPMailerAutoload.php';
-   $mail = new PHPMailer();
+   $mail = new PHPMailer(true);
    $mail ->IsSmtp();
    $mail ->SMTPDebug = 0;
    $mail ->SMTPAuth = true;
-   $mail ->SMTPSecure = 'ssl';
-   $mail ->Host = "smtp.gmail.com";
-   $mail ->Port = 465; // or 587
+   $mail ->SMTPSecure = 'tls';
+   $mail ->Host = "smtp.ionos.com";
+   $mail ->Port = 587; // or 587
    $mail ->IsHTML(true);
-   $mail ->Username = "yourmail@gmail.com";
-   $mail ->Password = "yourpassword";
-   $mail ->SetFrom("yourmail@gmail.com");
+   $mail ->Username = "wefixforless@asappcfix.com";
+   $mail ->Password = "gimmedat123123!A";
+   $mail ->SetFrom("Form@info.com");
    $mail ->Subject = $mailSub;
    $mail ->Body = $mailMsg;
    $mail ->AddAddress($mailto);
