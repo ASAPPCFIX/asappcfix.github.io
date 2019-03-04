@@ -3,7 +3,7 @@
 	font-family: ;
 }
 
-.button{
+input[type=submit]{
 width: 150px;
 font-size: 40px;
 margin-top:175px;
@@ -12,11 +12,19 @@ border-radius: 40px;
 
 }
 
+input[type=submit]:hover {
+  background-color: #0e5b82;
+}
+
+
 select{
 	background-color: none;
 	font-size: 32px;
 }
 
+a{
+	border-image-repeat: repeat
+}
 
 body{
 	background-image: url(https://www.fibreshare.org/wp-content/uploads/2018/05/Powered-By-PayPal-Logo.png);
@@ -24,4 +32,8 @@ body{
   background-attachment: fixed;
   background-position: 10px 315px;
   
+}
+
+
+
 }
