@@ -25,5 +25,9 @@ h1{
 }
 
 body{
-	background-image: 
+	background-image: url(https://www.fibreshare.org/wp-content/uploads/2018/05/Powered-By-PayPal-Logo.png);
+	background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: 10px 300px;
+  
 }
