@@ -1,36 +1,21 @@
 <?php
-    $firstname = $_POST['firstname'];
-    $lastname = $_POST['lastname'];
-    $contactinfo = $_POST['contact_info'];
-    $email_info = $_POST['email_info']
-    $devicetype = $_POST['device_type']
-    $modelno = $_POST['model_no']
 
+    if (isset($_POST['submit'])) {
+      $name = $_POST['full_name'];
+      $phone = $_POST['phone_info'];
+      $mailfrom = $_POST['email_info'];
+      $devicetype = $_POST['device_type'];
+      $model_no = $_POST['model_no'];
+      $message = $_POST['message'];
 
-   require 'PHPMailer-master/PHPMailerAutoload.php';
-   $mail = new PHPMailer(true);
-   $mail ->IsSmtp();
-   $mail ->SMTPDebug = 0;
-   $mail ->SMTPAuth = true;
-   $mail ->SMTPSecure = 'tls';
-   $mail ->Host = "smtp.ionos.com";
-   $mail ->Port = 587; // or 587
-   $mail ->IsHTML(true);
-   $mail ->Username = "wefixforless@asappcfix.com";
-   $mail ->Password = "gimmedat123123A!";
-   $mail ->SetFrom("Form@info.com");
-   $mail ->Subject = $mailSub;
-   $mail ->Body = $mailMsg;
-   $mail ->AddAddress($mailto);
+      $mailto = "wefixforless@asappcfix.com";
+      $headers = "From: ".$mailfrom;
+      $txt = "You have received a message from ".$name.".\n\n".$message;
 
-   if(!$mail->Send())
-   {
-       echo "Mail Not Sent";
-   }
-   else
-   {
-       echo "Mail Sent";
-   }
+      mail($txt, $phone, $devicetype, $model_no, );
+      header("Location: index.php?mailsend");
+    }
+
 
 
 
