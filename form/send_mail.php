@@ -13,7 +13,7 @@
       $txt = "You have received a message from ".$name.".\n\n".$message;
 
       mail($txt, $phone, $devicetype, $model_no, );
-      header("Location: index.php?mailsend");
+      header("Location: index.html?mailsend");
     }
 
 
