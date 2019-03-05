@@ -1,40 +1,32 @@
 <?php
-    $firstname = $_POST['firstname'];
-    $lastname = $_POST['lastname'];
-    $contactinfo = $_POST['contact_info'];
-    $email_info = $_POST['email_info']
-    $devicetype = $_POST['device_type']
-    $modelno = $_POST['model_no']
+    $msg = "";
+
+    if (isset($_POST['submit'])) {
+        require 'phpmailer/PHPMailerAutoload.php';
+
+        function sendemail($to, $from, $fromName, $body) {
+          $mail = new PHPMailer();
+          $mail ->setfrom($from, $fromName);
+          $mail ->addAddress($to);
+          $mail ->Subject = 'Customer Device Form';
+          $mail ->Body = $body;
+          $mail ->isHTML(false);
+
+          return $mail->send();
+        }
+
+        $name = $_POST['full_name'];
+        $phone = $_POST['phone_info'];
+        $email = $_POST['email_info'];
+        $device_type = $_POST['device_type,'];
+        $model = $_POST['model_no'];
+        $message = $_POST['message'];
+
+        if (sendemail('wefixforless@asappcfix.com', $name, $phone, $email, $device_type, $model, $message ))
+          $msg ='Message Sent!';
+          else 
+              $msg = 'Message Failed!'
+    }
 
 
-   require 'PHPMailer-master/PHPMailerAutoload.php';
-   $mail = new PHPMailer(true);
-   $mail ->IsSmtp();
-   $mail ->SMTPDebug = 0;
-   $mail ->SMTPAuth = true;
-   $mail ->SMTPSecure = 'tls';
-   $mail ->Host = "smtp.ionos.com";
-   $mail ->Port = 587; // or 587
-   $mail ->IsHTML(true);
-   $mail ->Username = "wefixforless@asappcfix.com";
-   $mail ->Password = "gimmedat123123!A";
-   $mail ->SetFrom("Form@info.com");
-   $mail ->Subject = $mailSub;
-   $mail ->Body = $mailMsg;
-   $mail ->AddAddress($mailto);
-
-   if(!$mail->Send())
-   {
-       echo "Mail Not Sent";
-   }
-   else
-   {
-       echo "Mail Sent";
-   }
-
-
-
-
-
-   
-
+?>
