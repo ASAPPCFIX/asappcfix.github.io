@@ -7,9 +7,9 @@ nav {
 list-style-type: none;
 margin-top: 5px;
 margin-bottom: 10px;
-background-color: white;
+background-color: none;
 display: inline-block;
-
+backface-visibility: 2%;
 }
 
 li {
@@ -22,13 +22,13 @@ color: black;
 text-align: center;
 padding: 10px 65px;
 text-decoration: none;
-background-color: none;
+
 
 
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-background-color: none;
+background-color: #dddad9;
 
 }
 
@@ -53,7 +53,7 @@ display: block;
 text-align: span;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #dddad9}
 
 .dropdown:hover .dropdown-content {
 display: block;
