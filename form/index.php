@@ -10,7 +10,7 @@
   <center>
     <h1>Hi, thank you for choosing ASAP PC FIX. Please fill out form below <br>so we can get a better understanding of your issues, we will contact you ASAP.</h1>
     <main>
-  <form  method="post" action="send_email.php" >
+  <form  method="post" action="send_mail.php" >
     
     <input type="text" name="full_name" placeholder="Your full name.."required><br>
 
