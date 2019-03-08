@@ -1,3 +1,8 @@
+form{
+	position: 200px;
+}
+
+
 input[type=text], select {
   width: 500px;
   padding: 12px 20px;
