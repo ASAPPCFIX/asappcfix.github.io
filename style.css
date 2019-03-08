@@ -1,10 +1,9 @@
-form{
-	position: 200px;
-}
+
 
 
 input[type=text], select {
   width: 500px;
+  height:2px;
   padding: 12px 20px;
   margin: 2px 2px;
   display: inline-block;
@@ -36,9 +35,12 @@ div {
 }
 
 #message{
-  height: 100px; 
-  width: 500px;
-  padding: 12px 20px;
+  min-height: 70px;
+  max-height: 50px; 
+  max-width: 500px;
+  min-width: 500px;
+  padding-top: 10px;
+  bottom-padding: 50px;
   margin: 2px 2px;
   display: inline-block;
   border: 1px solid #ccc;
