@@ -10,6 +10,8 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 20px;
   box-sizing: border-box;
+  background-color: #dddad9;
+  font-size: 15px;
   
 }
 
@@ -46,6 +48,8 @@ div {
   border: 1px solid #ccc;
   border-radius: 20px;
   box-sizing: border-box;
+  background-color: #dddad9;
+  font-size: 15px;
 }
 
 
