@@ -1,25 +1,10 @@
-#par1{
+.par{
 	font-size: 30px;
-	font-style: oblique;
-	font-weight: bold;
-	
 }
-
-
-
-#form1{
-	float: left;
-
-}
-
-#form2{
-	float:right;
-}
-
 
 input[type=text], select {
-  width: 500px;
-  height:2px;
+  width: 600px;
+  height:35px;
   padding: 12px 20px;
   margin: 2px 2px;
   display: inline-block;
@@ -46,17 +31,13 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-div {
-  border-radius: 5px;
-  background-color: none;
-  padding: 20px;
-}
+
 
 #message{
   min-height: 70px;
   max-height: 50px; 
-  max-width: 500px;
-  min-width: 500px;
+  max-width: 600px;
+  min-width: 600px;
   padding-top: 20px;
   bottom-padding: 50px;
  
@@ -86,8 +67,8 @@ margin-top: 0px;
 margin-bottom: 0px;
 background-color: none;
 display: inline-block;
-align-self: center;
-background-size: 
+
+
 
 
 
