@@ -1,4 +1,20 @@
+#par1{
+	font-size: 30px;
+	font-style: oblique;
+	font-weight: bold;
+	
+}
 
+
+
+#form1{
+	float: left;
+
+}
+
+#form2{
+	float:right;
+}
 
 
 input[type=text], select {
