@@ -1,3 +1,23 @@
+.counter{
+  visibility: hidden;
+}
+
+.openclose{
+
+font-size: 20px;
+font-style: oblique;
+padding-bottom: 0px;
+font-weight: bold;
+background-color: #dddad9;
+width: 400px;
+border-radius: 60px;
+}
+
+
+
+
+
+
 img.image{
 	border-radius: 20px;
 	border-width: 3px;
