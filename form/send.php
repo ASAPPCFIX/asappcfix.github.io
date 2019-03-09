@@ -42,7 +42,7 @@ try {
 
     //Server settings
 
-    $mail->SMTPDebug = 0;                                // Enable verbose debug output
+    $mail->SMTPDebug = 2;                                // Enable verbose debug output
 
     $mail->isSMTP();                                      // Set mailer to use SMTP
 
@@ -52,7 +52,7 @@ try {
 
     $mail->Username = 'wefixforless@asappcfix.com';                 // SMTP username
 
-    $mail->Password = 'gimmedat123123A!';                           // SMTP password
+    $mail->Password = 'Freedom123!';                           // SMTP password
 
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 

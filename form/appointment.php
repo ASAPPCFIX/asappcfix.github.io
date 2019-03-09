@@ -7,6 +7,7 @@
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $device = $_POST['device'];
+$time= $_POST['time'];
 $date = $_POST['date'];
 $message = $_POST['message'];
 
@@ -24,7 +25,7 @@ try {
     $mail->Host = 'smtp.1and1.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'wefixforless@asappcfix.com';                 // SMTP username
-    $mail->Password = 'gimmedat123123A!';                           // SMTP password
+    $mail->Password = 'Freedom123!';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
@@ -36,7 +37,7 @@ try {
 
 
     //Body content
-    $body = "<b>Message From:</b>". $name."<br><b>Phone:</b>".$phone."<br><b>Device-Type:</b>".$device."<br><b>Date:</b>". $date."<br><br><b>Message:</b>" . $message;
+    $body = "<b>Message From:</b>". $name."<br><b>Phone:</b>".$phone."<br><b>Device-Type:</b>".$device."<br><b>Time:</b>".$time."<br><b>Date:</b>". $date."<br><br><b>Message:</b>". $message;
     
    
 
