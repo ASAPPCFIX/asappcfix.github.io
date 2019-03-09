@@ -1,18 +1,55 @@
-.par{
-	font-size: 30px;
+.button{
+background-color: #000000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 100px;
+  cursor: pointer;
+  border-radius: 20px;
+ 
+
+    font-size: 50px;
+
 }
 
-input[type=text], select {
+.button:hover{
+	background-color: #45a049;
+
+}
+
+.par{
+	font-size: 35px;
+	background-color: #dddad9;
+	border-radius: 20px;
+}
+
+input[type=date]{
   width: 600px;
-  height:35px;
-  padding: 12px 20px;
+  height:60px;
+  padding: 12px 12px;
   margin: 2px 2px;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 20px;
   box-sizing: border-box;
   background-color: #dddad9;
-  font-size: 15px;
+  font-size: 25px;
+}
+
+input[type=text], select {
+  width: 600px;
+  height:55px;
+  padding: 12px 12px;
+  margin: 2px 2px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 60px;
+  box-sizing: border-box;
+  background-color: #dddad9;
+  font-size: 20px;
   
 }
 
@@ -23,8 +60,9 @@ input[type=submit] {
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
-  border-radius: 20px;
+  border-radius: 60px;
   cursor: pointer;
+  font-size: 50px;
 }
 
 input[type=submit]:hover {
@@ -35,14 +73,15 @@ input[type=submit]:hover {
 
 #message{
   min-height: 70px;
-  max-height: 50px; 
+  max-height: 225px; 
   max-width: 600px;
   min-width: 600px;
   padding-top: 20px;
+  padding-left: 5px;
   bottom-padding: 50px;
  display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 20px;
+  border-radius: 60px;
   box-sizing: border-box;
   background-color: #dddad9;
   font-size: 20px;
@@ -67,11 +106,8 @@ margin-bottom: 0px;
 background-color: none;
 display: inline-block;
 
-
-
-
-
 }
+
 
 li {
 float: left;
