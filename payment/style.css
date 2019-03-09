@@ -20,7 +20,7 @@ background-color: #000000;
 }
 
 .par{
-	font-size: 30px;
+	font-size: 35px;
 	background-color: #dddad9;
 	border-radius: 20px;
 }
@@ -52,7 +52,7 @@ input[type=text], select {
   
 }
 
-input[type=submit], option {
+input[type=submit] {
   width: 250px;
   background-color: #000000;
   color: white;
@@ -119,7 +119,6 @@ color: black;
 text-align: left;
 padding: 6px 65px;
 text-decoration: none;
-border-radius: 60px;
 
 
 
@@ -143,8 +142,6 @@ background-color: #dddad9;
 min-width: 160px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 z-index: 1;
-border-radius: 40px;
-
 }
 
 .dropdown-content a {
