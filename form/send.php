@@ -1,38 +1,25 @@
 <?php
-
     if (isset($_POST['submit'])){
-
-
-
     }
 
+     if (!isset($_POST['sike'])){
 
-
+    }       
+        
 // get variables from the form
-
 $name = $_POST['name'];
-
 $phone = $_POST['phone'];
-
 $email = $_POST['email'];
-
 $device = $_POST['device'];
-
 $model = $_POST['model'];
-
 $message = $_POST['message'];
 
 
-
-
-
 //Load Composer's autoloader
-
         require 'PHPMailerAutoload.php';
-
         require 'class.phpmailer.php'; // path to the PHPMailer class
-
         require 'class.smtp.php';
+
 
 
 
@@ -41,22 +28,14 @@ $mail = new PHPMailer();                              // Passing `true` enables 
 try {
 
     //Server settings
-
-    $mail->SMTPDebug = 0;                                // Enable verbose debug output
-
-    $mail->isSMTP();                                      // Set mailer to use SMTP
-
-    $mail->Host = 'smtp.1and1.com';  // Specify main and backup SMTP servers
-
-    $mail->SMTPAuth = true;                               // Enable SMTP authentication
-
-    $mail->Username = 'wefixforless@asappcfix.com';                 // SMTP username
-
-    $mail->Password = 'gimmedat123123A!';                           // SMTP password
-
-    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-
-    $mail->Port = 587;                                    // TCP port to connect to
+$mail->SMTPDebug = 0;                                // Enable verbose debug output
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.1and1.com';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = 'wefixforless@asappcfix.com';                 // SMTP username
+$mail->Password = 'gimmedat123123A!';                           // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;                                    // TCP port to connect to
 
 
 
@@ -107,3 +86,6 @@ try {
     echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
 
 }
+
+
+ 
