@@ -42,7 +42,7 @@ try {
 
     //Server settings
 
-    $mail->SMTPDebug = 2;                                // Enable verbose debug output
+    $mail->SMTPDebug = 0;                                // Enable verbose debug output
 
     $mail->isSMTP();                                      // Set mailer to use SMTP
 
@@ -52,7 +52,7 @@ try {
 
     $mail->Username = 'wefixforless@asappcfix.com';                 // SMTP username
 
-    $mail->Password = 'Freedom123!';                           // SMTP password
+    $mail->Password = 'gimmedat123123A!';                           // SMTP password
 
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 
@@ -68,7 +68,7 @@ try {
 
     // Recipients
 
-    $mail->addAddress('asappcfix@gmail.com', 'ASAP PC FIX');     // Add a recipient
+    $mail->addAddress('wefixforless@asappcfix.com', 'ASAP PC FIX');     // Add a recipient
 
 
 
@@ -100,7 +100,7 @@ try {
 
     $mail->send();
 
-    header("location:http://asappcfix.com");
+    header("location:https://asappcfix.com");
 
 } catch (Exception $e) {
 
