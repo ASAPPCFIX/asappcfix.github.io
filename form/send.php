@@ -1,10 +1,5 @@
 <?php
-    if (isset($_POST['submit'])){
-    }
 
-     if (!isset($_POST['sike'])){
-
-    }       
         
 // get variables from the form
 $name = $_POST['name'];
@@ -17,8 +12,7 @@ $message = $_POST['message'];
 
 //Load Composer's autoloader
         require 'PHPMailerAutoload.php';
-        require 'class.phpmailer.php'; // path to the PHPMailer class
-        require 'class.smtp.php';
+        
 
 
 
@@ -87,5 +81,6 @@ $mail->Port = 587;                                    // TCP port to connect to
 
 }
 
+?>
 
  

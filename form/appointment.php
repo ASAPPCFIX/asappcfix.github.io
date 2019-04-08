@@ -1,7 +1,12 @@
 <?php
-    if (isset($_POST['submit'])){
+    if (isset($_POST['submit'])) {
+    
 
-    }
+     if (isset($_POST['sike']) && !empty($_POST['sike'])) {
+        die();
+    }       
+        
+        }
 
 // get variables from the form
 $name = $_POST['name'];
