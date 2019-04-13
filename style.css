@@ -1,3 +1,10 @@
+.hidden{
+  display: none;
+  visibility: hidden;
+}
+
+
+
 .counter{
   visibility: hidden;
 }
