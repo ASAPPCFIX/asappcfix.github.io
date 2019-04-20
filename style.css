@@ -38,7 +38,7 @@ background-color: #000000;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 2px 100px;
+  margin: 2px 60px;
   cursor: pointer;
   border-radius: 60px;
   font-size: 60px;
@@ -55,7 +55,7 @@ background-color: #000000;
 	font-size: 30px;
 	background-color: #dddad9;
 	border-radius: 20px;
-	width: 1150px;
+	width: 1000px;
 }
 
 
