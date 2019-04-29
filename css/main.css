@@ -568,9 +568,9 @@ color: #252525;
 
 textarea {
 min-height: 10rem;
-min-width: 60rem;
+min-width: 10rem;
 max-height: 10rem;
-max-width: 60rem;
+max-width: 10rem;
 }
 input[type="email"]:focus,
 input[type="number"]:focus,
