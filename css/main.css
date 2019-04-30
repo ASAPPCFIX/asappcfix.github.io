@@ -1157,6 +1157,14 @@ a.menu-toggle span::after {
 *
 * ------------------------------------------------------------------- 
 */
+#intro .h05 {
+font-size: 1.7rem;
+line-height: 1.765;
+color: #05bca9;
+margin-bottom: 1.8rem;
+background-color: #757272;
+background-size: 10px 10px;
+}
 
 #intro {
 background: #14181E url(../images/intro-bg.jpg) no-repeat center;
