@@ -1163,7 +1163,7 @@ line-height: 1.765;
 color: #05bca9;
 margin-bottom: 1.8rem;
 background-color: #757272;
-background-size: 10px 10px;
+max-width: 60rem;
 }
 
 #intro {
