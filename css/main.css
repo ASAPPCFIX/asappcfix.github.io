@@ -41,6 +41,10 @@
 *
 * ------------------------------------------------------------------- 
 */
+.hidden{
+	display: none;
+	visibility: hidden;
+}
 
 html {
 font-size: 10px;
