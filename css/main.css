@@ -1205,7 +1205,7 @@ line-height: 1.334;
 max-width: 600px;
 background-color: rgba(39, 216, 172, 0.5);
 border-radius: 20px;
-
+position: relative;
 }
 .intro-content h5 {
 color: rgba(255, 255, 255, 0.9);
@@ -1273,7 +1273,7 @@ border-color: #05bca9;
 }
 .intro-content h1 {
 	font-size: 4.2rem;
-	max-width: 550px;
+	max-width: 600px;
 }
 .intro-content h5 {
 	font-size: 1.5rem;
