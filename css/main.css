@@ -1203,12 +1203,14 @@ font-family: "merriweather-bold", serif;
 font-size: 5.4rem;
 line-height: 1.334;
 max-width: 800px;
+background-color: rgba(39, 216, 172, 0.5);
+border-radius: 20px;
 
 }
 .intro-content h5 {
-color: rgba(255, 255, 255, 0.6);
+color: rgba(255, 255, 255, 0.9);
 font-family: "raleway-heavy", sans-serif;
-font-size: 1.8rem;
+font-size: 2.8rem;
 line-height: 1.667;
 margin-bottom: 0.6rem;
 text-transform: uppercase;
@@ -1227,9 +1229,9 @@ color: #FFFFFF;
 height: 6.6rem;
 line-height: 6rem;
 padding: 0 3rem !important;
-margin-top: 1.8rem;
+margin-top: 5.8rem;
 font-family: "raleway-heavy", sans-serif;
-font-size: 1.4rem;
+font-size: 1.9rem;
 text-transform: uppercase;
 letter-spacing: .4rem;
 }
