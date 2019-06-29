@@ -1562,10 +1562,10 @@ color: white;
 color: white;
 }
 #features .section-intro h5 {
-color: rgba(255, 255, 255, 0.5);
+color: rgba(255, 255, 255, 0.99);
 }
 #features .section-intro p {
-color: rgba(255, 255, 255, 0.7);
+color: rgba(255, 255, 255, 0.99);
 }
 .features-content {
 max-width: 1200px;
