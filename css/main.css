@@ -57,11 +57,9 @@ padding: 10px 45px;
 text-decoration: none;
 text-align: center;
 
-
-
-
-
 }
+
+
 .dropdown-content {
 
 display: none;
@@ -72,7 +70,6 @@ background-color: rgba(14, 31, 29, 0.9);
 
 min-width: 200px;
 text-align: center;
-
 
 
 }
@@ -90,7 +87,9 @@ text-align: center;
 
 
 
-.dropdown-content a:hover {background-color: }
+.dropdown-content a:hover {
+	background-color: rgba(14, 31, 29, 0.9);
+}
 
 
 
