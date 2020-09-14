@@ -1203,7 +1203,7 @@ font-family: "merriweather-bold", serif;
 font-size: 3.4rem;
 line-height: 1.334;
 max-width: 600px;
-background-color: rgba(39, 216, 172, 0.6);
+background-color: rgba(0, 0, 0, 0.6);
 border-radius: 20px;
 position: relative;
 }
@@ -1234,7 +1234,7 @@ font-family: "raleway-heavy", sans-serif;
 font-size: 1.9rem;
 text-transform: uppercase;
 letter-spacing: .4rem;
-background-color: rgba(39, 216, 172, 0.6);
+background-color: rgba(0, 0, 0, 0.6);
 
 }
 .intro-content .button:hover, .intro-content .button:focus {
