@@ -1207,6 +1207,17 @@ background-color: rgba(0, 0, 0, 0.6);
 border-radius: 20px;
 position: relative;
 }
+
+.appt  {
+color: #FFFFFF;
+font-family: "merriweather-bold", serif;
+font-size: 3.4rem;
+line-height: 1.334;
+max-width: 600px;
+background-color: rgba(0, 0, 0, 0.6);
+border-radius: 20px;
+position: relative;
+}
 .intro-content h5 {
 color: rgba(255, 255, 255, 0.9);
 font-family: "raleway-heavy", sans-serif;
