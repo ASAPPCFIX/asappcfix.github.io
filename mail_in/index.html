@@ -11,7 +11,7 @@
 <!--- basic page needs
 ================================================== -->
 <meta charset="utf-8">
-<title>APPOINTMENT</title>
+<title>ASAP PC FIX | MAIL-IN FORM</title>
 <meta name="description" content="">  
 <meta name="author" content="">
 
@@ -27,11 +27,11 @@
 
 <!-- script
 ================================================== -->
-<script src="js/modernizr.js"></script>
+<script src="../js/modernizr.js"></script>
 
 <!-- favicons
 ================================================== -->
-<link rel="icon" type="image/png" href="favicon.png">
+<link rel="icon" type="image/png" href="../favicon.png">
 
 </head>
 
@@ -44,7 +44,7 @@
 <div class="row">
 
 <div class="logo">
-<a href="index.html">ASAP PC FIX</a>
+<a href="../index.html">ASAP PC FIX</a>
 </div>
 
 
@@ -69,7 +69,7 @@
                                                            
 <center>
 
-<form method="post" action="http://192.168.2.3:8080/php2/asap_apt.php" >
+<form method="post" action="https://asap.epizy.com">
 
 <input type="text" name="name" placeholder="Your name.."required>
 
@@ -79,15 +79,17 @@
 
 <input type="text" name="device" placeholder="What type of device?.."required>
 
-<h3 class="h05">Monday - Friday 10:00 AM - 5:00 PM</h3>
-<h3 class="h05">Below input a time & date that is convenient for you.</h3>
-<br><h3 class="h05">Time</h3>
+<h3 class="h05">Mail Carrier (UPS Service Not Accepted) </h3>
 
-<input type="time" name="time" required>
+<input type="text" name="carrier" placeholder="Fedex | USPS | (UPS Service Not Accepted)"required>
+
+<h3 class="h05">Tracking Number</h3>
+
+<input type="text" name="track" placeholder="Tracking NO.."required>
 
 <input id="lol" type="select" name="test" class="hidden">
 
-<h3 class="h05">Date</h3>
+<h3 class="h05">Mail-In Date</h3>
 <input type="date" name="date" required>
 <br><h3 class="h05">message box</h3>
 
